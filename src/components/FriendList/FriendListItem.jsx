@@ -5,8 +5,8 @@ export default function FriendListItem({avatar, name, isOnline}) {
   return (
     <li className={css.item}>
 <span className={isOnline ? css.online : css.offline}></span>
-<img ClassName={css.avatar} src={avatar} alt="" width="48" />
-<p ClassName={css.name}>{name}</p>
+<img className={css.avatar} src={avatar} alt="" width="48" />
+<p className={css.name}>{name}</p>
 </li>
 )
 }
